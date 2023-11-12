@@ -1,0 +1,94 @@
+/* all */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+/* body (fonts) */
+body {
+  color: #000;
+  font-family: "Cambria";
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.7rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p,
+li {
+  font-size: 1.9rem;
+}
+
+.parentheses {
+  font-size: 1.53rem;
+}
+
+.container__left-infos > ul > li {
+  font-size: 1.8rem;
+}
+
+.left__github > p {
+  font-size: 1.5rem;
+}
+
+/* container__cv (layout) */
+.container__cv {
+  /* border: 0.1rem solid black; */
+  margin: 0.5rem;
+  height: 123.6rem;
+  width: 87.4rem;
+
+  display: grid;
+  grid-template-areas: "left right";
+}
+
+.container__left-infos {
+  background-color: rgb(147, 156, 238);
+  border-right: 2.5px solid darkslategray;
+  padding: 10rem 0.45rem 0 0.45rem;
+  width: 25rem;
+
+  grid-area: left;
+}
+
+.container__right-infos {
+  padding: 7.5rem 0.45rem 0 1rem;
+  display: block;
+
+  grid-area: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* articles */
+article {
+  margin-top: 3.5rem;
+}
+
+.left__github {
+  margin-bottom: 4.7rem;
+  padding: 0.15rem 0 0.15rem 0;
+  border-top: 0.15rem solid darkslategray;
+  border-bottom: 0.15rem solid darkslategray;
+}
+
+.exp-li-name {
+  margin-top: 1.5rem;
+}
+
+.exp-li-description {
+  font-size: 1.85rem;
+  margin-top: 0.7rem;
+}
